@@ -6,9 +6,8 @@ const Order = () => {
   return (
     <div className="w-[24rem] m-auto h-[38rem]   ">
       <div className="w-[100%]   m-auto ">
-        <img className="rounded-t-2xl" src={musicImage} />
+        <img className="rounded-t-2xl" src={musicImage} alt="icon" />
       </div>
-      {/*  */}
       <div className="w-[100%]  m-auto text-center h-[24rem] bg-[#F5F7FF] rounded-b-2xl ">
         <div className="m-auto  ">
           <h1 className="pt-9 font-redhat text-[28px] font-[900] text-[#1F2F56]">
@@ -19,7 +18,11 @@ const Order = () => {
             any device anywhere you like!
           </p>
           <div className="flex w-[20rem]  rounded-xl font-hat  h-[4rem] shadow-md m-auto mt-5 bg-[#F5F7FF]">
-            <img className="w-12 h-12 my-auto mx-5 " src={musicicon} />
+            <img
+              className="w-12 h-12 my-auto mx-5 "
+              src={musicicon}
+              alt="music-icon"
+            />
             <div className="my-auto">
               <p className=" font-[700] text-[#1F2F56] text-[15px]">
                 Annual Plan
